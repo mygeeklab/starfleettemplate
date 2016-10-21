@@ -1,0 +1,85 @@
+body{
+     background-image: url("../starfleet1.jpg");
+    background-position-x: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00B2EE;
+    text-decoration: underline;
+}
+
+@font-face{
+    font-family: 'Pacifico', cursive;
+}
+
+@font-face{
+    font-family: 'Courgette', cursive;
+}
+
+hr.minhr{
+    width: 70px;
+    color: #00B2EE;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;    
+}
+
+p{    
+    font-size: 24px;
+}
+
+h3{
+    font-size: 48px;
+}
+
+p, h3{
+    text-align: center;
+    color: #c0c0c0;
+    font-family: 'Courgette', cursive;
+}
+
+img.center{
+    display: block;
+    margin: 0 auto;
+}
+
+.container{
+    text-align: center;
+     margin: 0 auto;
+}
+
+.clockFace{
+    margin: 0 auto;
+    max-width: 620px;
+    margin-top: 2em;
+}
+
+.cfText{
+        color: #00B2EE;
+        font-size: 20px;
+}
+
+.flipclock {
+    zoom: 0.5;
+    -moz-transform: scale(0.5);
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    max-width: 620px;
+    margin-top: 2em;
+}
+
+.footer{
+    position: inherit;
+    bottom: 0;
+    left: 0;
+}
+
+.disclaimer{
+    bottom: 0;
+}

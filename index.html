@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+    <title>
+        Space Fleet
+    </title>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/png" href="assets/favicon.ico">
+
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/main.css">
+
+        <link rel="stylesheet" href="assets/Skeleton-2.0.4/css/skeleton.css">
+        <link rel="stylesheet" href="assets/Skeleton-2.0.4/css/normalize.css">
+
+
+
+        <link rel="stylesheet" href="assets/FlipClock-master/compiled/flipclock.css">
+        <script src="assets/FlipClock-master/compiled/flipclock.min.js"></script>
+
+
+        <script src="assets/granim.js-1.0.6/dist/granim.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+            <div class="intro">
+
+                <h1>Space Fleet</h1>
+
+                <img class="center" src="assets/ufo.png" />
+
+                <p>The Space Fleet template is a minimalistic landing page designed using the <a href="getskeleton.com"> Skeleton </a> responsive framework.</br>
+                 It comes with a countdown clock implemented using <a href="flipclockjs.com"> Flipclock.js </a> to provide a simple yet mordern outlook.</p>
+
+                <div class="row">
+
+                    <div class="container">
+                        <br>
+                        <div class="flipclock"></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <br>
+
+            <div class="footer">
+                <br>
+
+                <p>
+                    Designed By: <a class="button button-primary" href="https://mygeeklab.github.io">Geek Lab</a>
+                </p>
+            <hr class="minhr">
+            <br>
+
+            <div class="disclaimer">
+                <p>Vector Diagram Courtesy Of <a href="http://freepik.com">FreePik.com</a></p>
+            </div>
+
+            </div>
+
+        <!-- Scripts -->
+
+        <script src="assets/FlipClock-master/compiled/flipclock.min.js"></script>
+
+        <script type="text/javascript">
+            var date = new Date(2016, 10, 31);
+            var now = new Date();
+            var diff = (date.getTime()/1000) - (now.getTime()/1000);
+
+            var clock = $('.flipclock').FlipClock(diff, {
+                clockFace: 'DailyCounter',
+                countdown: true
+            });
+        </script>
+
+    </body>
+
+</html>
