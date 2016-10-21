@@ -37,6 +37,17 @@ h3{
     font-size: 48px;
 }
 
+.github{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.github:hover{
+     background-color: #00B2EE;
+}
+
 p, h3{
     text-align: center;
     color: #c0c0c0;
